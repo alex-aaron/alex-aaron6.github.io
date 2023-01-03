@@ -13,3 +13,8 @@
 
 ## How to save work to github repository
 1) In terminal, type => git add -A
+2) In terminal, type => git commit -m "description"
+3) In terminal, type => git push
+
+## How to test projects
+1) 
