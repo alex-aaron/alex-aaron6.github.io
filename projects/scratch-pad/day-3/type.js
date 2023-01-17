@@ -23,7 +23,9 @@ function isArray(value) {
 
 /** 
  * Given an input value, return true if the value is an Object intended as a 
- * collection, false if otherwise.
+ * collection, false if otherwise. // { a: 1, b: 2 } // null // [1, 2, 3] // var today = new Date();
+ * 
+ * TIP: Need to see if value is an 'instance of' the date object
  * 
  * TIP: In JavaScript, how can we decipher if a value is an Object, but not 
  * null, not an Array, not a Date - all of these will return 'object' if used 

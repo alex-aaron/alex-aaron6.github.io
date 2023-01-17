@@ -10,11 +10,19 @@
  * Given an input base to test against, which could be a String or Number, 
  * return a Function that tests whether a given value is greater than the 
  * base.
+ * 
+ * test = returns true or false
  */
 function createGreaterThanFilter(base) {
     // YOUR CODE BELOW HERE //
     
-    
+    return function(value){
+        if (value > base){
+            return true;
+        } else {
+            return false;
+        }
+    }
     
     
     // YOUR CODE ABOVE HERE //
@@ -69,7 +77,7 @@ function createEndsWithFilter(endsWith) {
  * TIP: You need to loop over the Strings, right? We need to pass each String to 
  * the modify Function, but we need to collect the results into some collection.
  */
-function modifyStrings(strings, modify) {
+function modifyStrings(strings, modify) { // modifiy = function(){}
     // YOUR CODE BELOW HERE //
     
     
@@ -87,7 +95,7 @@ function modifyStrings(strings, modify) {
  * 
  * TIP: You need to loop over the Strings, right? And pass them to the test?
  */
-function allStringsPass(strings, test) {
+function allStringsPass(strings, test) { // test = function(){}
     // YOUR CODE BELOW HERE //
     
     

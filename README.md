@@ -16,5 +16,3 @@
 2) In terminal, type => git commit -m "description"
 3) In terminal, type => git push
 
-## How to test projects
-1) 
